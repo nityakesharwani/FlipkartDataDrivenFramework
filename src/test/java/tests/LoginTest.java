@@ -22,7 +22,7 @@ public class LoginTest extends BaseTest {
             }
 
             loginPage.openLoginForm();
-            loginPage.enterMobileNumber("6386690153");
+            loginPage.enterMobileNumber("your no.");
             loginPage.clickRequestOtp();
 
             System.out.println("Please enter OTP manually within 25 seconds...");
